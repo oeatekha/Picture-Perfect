@@ -1,7 +1,7 @@
 # Picture-Perfect
 2.086 Picture Perfect. Low-level GUI photo editing application made in MATLAB.
 
-<img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UIGLOW.png" width="800"/>
+<img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UI%20GLOW.png" width="800"/>
 
 Picture-Perfect is a MATLAB and tool that allows you to use a GUI interface to explore different methods of image manipulation and filters.
 Picture Perfect was made by Mike Burgess, Kevin Lu, Adrian Garza, and Omoruyi Atekha Spring 2020. 
@@ -35,7 +35,7 @@ Clean Up Source Code:
 # Image Sliders
 Red, green, and blue were developed to tweak the hue of an image. 
 
-![](https://github.com/oeatekha/Picture-Perfect/blob/main/UIMAGESLIDERS.png)
+![](https://github.com/oeatekha/Picture-Perfect/blob/main/UIMAGESLIDER%20(1).png)
 
 ## Glow
 The glow filter aims to high light the edges in the image, where there is a drastic change in the color. Those regions of change are amplified while all the 
@@ -43,7 +43,7 @@ other areas are turned to black. This effect is achieved with the use of kernels
 applied so that each pixel of the image is multiplied by the center of the kernel. The values of that center pixel and its neighbors after being multiplied by 
 the kernel are summed to give the weighted value for the center pixel. For this filter, the matrix was designed to highlight edges with a slope of 1. 
 
-![](https://github.com/oeatekha/Picture-Perfect/blob/main/UIGLOW.png)
+![](https://github.com/oeatekha/Picture-Perfect/blob/main/UI%20GLOW.pngg)
 
 ## FRY
 The fry filter is not built to be very visually appealing. Referencing a popular internet meme style, the filter takes an image and essentially ruins all quality the 
@@ -53,7 +53,7 @@ is reduced by making it’s total size ⅔ of the original size of the user-give
 it was before. Each of these rounds works to make the image look significantly worse. At the end, the picture looks like a low-quality mosaic of saturated colors. 
 The clunkiness makes the image seem as if it was placed in a fryer with hot oil for a good 10-15 minutes.
 
-![](https://github.com/oeatekha/Picture-Perfect/blob/main/UIFRY.png)
+![](https://github.com/oeatekha/Picture-Perfect/blob/main/UIMAGESLIDER%20(2).png)
 
 
 ### Painted
@@ -63,9 +63,11 @@ the image to look much less complex. This effect is made by dividing all of the 
 that is rounded to the closest integer. This number is then multiplied by a constant number to scale it upwards. Effectively, by dividing and rounding pixel values, the number
 of colors in the picture has been greatly reduced. This creates desired patches of simple colors. 
 
-### Black and White, Color Inversion, Hue Inversion, etc
+### Other Features: Black and White, Classic, Color Inversion, Hue Inversion, etc.
 
 <div>
-<img src="https://github.com/oeatekha/ColorChives/blob/main/HSL.png" width="460">
-<img src="https://github.com/oeatekha/ColorChives/blob/main/danger.jpg.png" width="400">
+HUE Inversion
+<img src="https://github.com/oeatekha/Picture-Perfect/blob/main/HUEINV.png" width="460">
+Classic 
+<img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UI.png" width="460">
 </div>
