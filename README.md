@@ -63,7 +63,7 @@ the image to look much less complex. This effect is made by dividing all of the 
 that is rounded to the closest integer. This number is then multiplied by a constant number to scale it upwards. Effectively, by dividing and rounding pixel values, the number
 of colors in the picture has been greatly reduced. This creates desired patches of simple colors. 
 
-### Other Features: Black and White, Classic, Color Inversion, Hue Inversion, etc.
+### Other Features: Black and White, Classic, Color Inversion, Hue Inversion, Emboss, Bi-Polar etc.
 
 <div>
 
@@ -73,3 +73,19 @@ HUE INVERSION
 <img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UI.png" width="460">
 CLASSIC 
 </div>
+
+# Aditional Descriptions
+
+## Bi-Polar
+
+The bipolar filter attempts to create a high contrast representation of the image. The filter begins with creating a black white version of the image to have a less diverse amount of color representations. After the image is put in a greyscale form a high threshold value of 200 is set. The black and white intensity is then reset. If it is higher than the threshold the pixel color is then set to white or if lower the pixel color is set to black.
+
+## Emboss
+
+The emboss filter makes the image look like it was pressed onto a piece of paper. It first uses the black and white filter. Then a kernel is applied to the image that defines the edges and makes everything else more monotone. This kernel weighs edges with a slope of 1 the most, undefines and slopes of 0 second, and slopes of -1 the least.
+
+## Hue Inversion
+
+Within color theory, it is known that every color has an opposite color, formally known as a complementary color. On the color circle, complementary hues oppositely face one another and  because of this when combined, the hues cancel out. This filter’s goal is to invert the colors of an image. This was done by taking the RGB values of an image and extracting the hue of each pixel. Following this the opposite H is calculated. When RGB values are placed on an Hue scale, we convert the RGB values to Hue Saturation Values (HSV). On the Hue scale colors are represented in a 360 degrees format so the current hue gets 180 degrees added to flip its position then modulus of 360 degrees is done to normalize the value. Altogether resulting in a color inverted image.
+
+
