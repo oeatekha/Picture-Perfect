@@ -4,7 +4,9 @@
 <img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UI%20GLOW.png" width="800"/>
 
 Picture-Perfect is a MATLAB and tool that allows you to use a GUI interface to explore different methods of image manipulation and filters.
-Picture Perfect was made by Mike Burgess, Kevin Lu, Adrian Garza, and Omoruyi Atekha Spring 2020. 
+Picture Perfect was made by Mike Burgess, Kevin Lu, Adrian Garza, and Omoruyi Atekha Spring 2020. The Matlab GUI allows users to upload their own image, manipulate it, and save their changes. The application window is very simple, with a handful of sliders to modify basic properties of the image such as brightness and RGB color tints. Filters are accessible at the base of the window. The code itself is written as just a basic Matlab app. Sliders are added as objects under the scope of the application, with functions run as they are slid. The same goes for button objects that permit the use of filters. The image and filename themselves are also stored as attributes of the application, whose definitions change as filters are applied. The sliders themselves work very simply and can be applied over a filter. 
+
+Total of 10 Filters: Black and White, FRY, Glow, Invert, Emboss, Hue, Mirror, Bi-Polar, Origianl, Painted. 
 
 
 ## Setup
