@@ -66,8 +66,10 @@ of colors in the picture has been greatly reduced. This creates desired patches 
 ### Other Features: Black and White, Classic, Color Inversion, Hue Inversion, etc.
 
 <div>
-HUE Inversion
+
 <img src="https://github.com/oeatekha/Picture-Perfect/blob/main/HUEINV.png" width="460">
-Classic 
+HUE INVERSION
+
 <img src="https://github.com/oeatekha/Picture-Perfect/blob/main/UI.png" width="460">
+CLASSIC 
 </div>
