@@ -45,7 +45,7 @@ other areas are turned to black. This effect is achieved with the use of kernels
 applied so that each pixel of the image is multiplied by the center of the kernel. The values of that center pixel and its neighbors after being multiplied by 
 the kernel are summed to give the weighted value for the center pixel. For this filter, the matrix was designed to highlight edges with a slope of 1. 
 
-![](https://github.com/oeatekha/Picture-Perfect/blob/main/UI%20GLOW.pngg)
+![](https://github.com/oeatekha/Picture-Perfect/blob/main/UI%20GLOW.png)
 
 ## FRY
 The fry filter is not built to be very visually appealing. Referencing a popular internet meme style, the filter takes an image and essentially ruins all quality the 
